@@ -1,6 +1,8 @@
 let celsiusValue = document.getElementById('Celsius')
 let fahValue = document.getElementById('Fahrenheit')
 let kelvinValue = document.getElementById('Kelvin')
+const checkBtn=document.getElementById("checkBtn").addEventListener("click",submitData)
+
 
 let allInput = document.querySelectorAll('input')
 
@@ -30,3 +32,4 @@ function submitData(id, text) {
         celsiusValue.value = ((text - 32) * 5 / 9);
     }
 }
+
