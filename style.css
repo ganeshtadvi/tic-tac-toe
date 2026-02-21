@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to left bottom, yellow, lightblue);
+  background: linear-gradient(to left bottom, #8B8882, #1A4783);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -52,4 +52,5 @@ h1 {
     outline: none;
   }
 }
+
 
