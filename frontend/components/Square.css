@@ -1,0 +1,23 @@
+.square {
+  border: 1px solid #ffffff;
+  background: #111827;
+  border-radius: 15px;
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.2s ease;
+  text-transform: none;
+  user-select: none;
+  color: transparent;
+}
+
+.square:hover {
+  background: #e8e9eb;
+}

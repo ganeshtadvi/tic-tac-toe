@@ -1,0 +1,16 @@
+.game-board {
+  width: 360px;
+  height: 360px;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+
+  background: #6e788b;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
