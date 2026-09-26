@@ -15,7 +15,7 @@
   transition: background 0.2s ease;
   text-transform: none;
   user-select: none;
-  color: transparent;
+  /* color: transparent; */
 }
 
 .square:hover {
