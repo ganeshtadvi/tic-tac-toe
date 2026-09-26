@@ -15,9 +15,9 @@
   transition: background 0.2s ease;
   text-transform: none;
   user-select: none;
-  /* color: transparent; */
+  color: wheat;
 }
 
 .square:hover {
-  background: #e8e9eb;
+  background: #33405a;
 }
